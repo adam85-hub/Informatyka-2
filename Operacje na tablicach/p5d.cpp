@@ -26,7 +26,7 @@ int main() {
     cout << "Przed: " << endl;
     wypisz(t);
 
-    // Najpierw przeżucam przez jedną oś
+    // Najpierw przerzucam przez jedną oś
     for (int i = 0; i < N; i++)
     {
         for (int j = 0; j < N - i; j++) {
