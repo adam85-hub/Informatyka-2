@@ -13,9 +13,9 @@ void gotoxy(int x, int y)
 
 main()
 {
-    const int px = 40; // wspó³rzêdne œrodka
+    const int px = 40; // wspï¿½rzï¿½dne ï¿½rodka
     const int py = 5;
-    const int n = 10; // wysokoœæ piramidy
+    const int n = 10; // wysokoï¿½ï¿½ piramidy
 
     if(px<n) {
         cout << "Piramida wyjdzie poza ekran" << endl;
@@ -29,4 +29,7 @@ main()
             Sleep(30);
         }
     }
+
+    int x;
+    cin >> x;
 }
