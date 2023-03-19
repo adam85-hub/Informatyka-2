@@ -47,7 +47,7 @@ int main() {
 
     unsigned int d = -1;
     for (int i = 0; i < points.size(); i++) {
-        for (int j = i; j < points.size(); j++) {
+        for (int j = i+1; j < points.size(); j++) {
             if(points[i]->distanceTo(points[j]) < d)
                 d = points[i]->distanceTo(points[j]);
         }
